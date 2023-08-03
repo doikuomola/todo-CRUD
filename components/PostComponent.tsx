@@ -3,7 +3,7 @@
 import { Post } from '@prisma/client';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
-import { ChangeEvent, FormEvent, MouseEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
 import { Modal } from '.';
 
 type PostComponentProps = {

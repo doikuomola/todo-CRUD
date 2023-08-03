@@ -2,7 +2,8 @@ import { AddPost, PostList } from '@/components';
 import React from 'react';
 
 async function getPostsData() {
-  const res = await fetch('http://localhost:3000/api/posts', {
+  const API_URI = process.env.API_URI
+  const res = await fetch(`${API_URI}/api/posts`, {
     method: 'GET',
     cache: 'no-store',
   });
