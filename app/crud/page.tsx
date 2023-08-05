@@ -18,14 +18,15 @@ export default async function Crud() {
 
   return (
     <main className="mt-1 md:mt-8">
-      <div className="my-2 md:my-5 flex flex-col gap-4">
+      {/* <div className="my-2 md:my-5 flex flex-col gap-4">
         <h1 className="text-2xl md:text-3xl font-light md:font-bold">
           Todo List App
         </h1>
         <AddPost />
       </div>
 
-      <PostList posts={posts} />
+      <PostList posts={posts} /> */}
+      hello world
     </main>
   );
 }
